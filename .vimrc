@@ -1,3 +1,8 @@
+" File              : .vimrc
+" Author            : Yingjun Dong <ydong25@binghamton.edu>
+" Date              : 26.10.2019
+" Last Modified Date: 26.10.2019
+" Last Modified By  : Yingjun Dong <ydong25@binghamton.edu>
 set nocompatible
 filetype on
 set textwidth=100
@@ -51,6 +56,11 @@ let NERDTreeWinSize=25
 
 Plugin 'indentLine.vim'
 Plugin 'delimitMate.vim'
+
+Plugin 'alpertuna/vim-header'
+let g:header_field_author = 'Yingjun Dong'
+let g:header_field_author_email = 'ydong25@binghamton.edu'
+map <F4> :AddHeader<CR>
 
 call vundle#end()
 
@@ -143,3 +153,5 @@ function! ClosePair(char)
 endfunction
 filetype plugin indent on
 set completeopt=longest,menu
+
+
