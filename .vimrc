@@ -1,10 +1,4 @@
-" File              : .vimrc
-" Author            : Yingjun Dong <ydong25@binghamton.edu>
-" Date              : 26.10.2019
-" Last Modified Date: 26.10.2019
-" Last Modified By  : Yingjun Dong <ydong25@binghamton.edu>
 set nocompatible
-filetype on
 set textwidth=100
 set backspace=indent,eol,start 
 set cc=100
@@ -15,23 +9,41 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-"Plugin 'Valloric/YouCompleteMe'
 
+Plugin 'Valloric/YouCompleteMe'
+augroup ycm_settings:
+	autocmd!
+	let g:ycm_autoclose_preview_window_after_insertion = 1
+	let g:ycm_autoclose_preview_window_after_completion = 1
+	let g:ycm_goto_buffer_command = 'horizontal-split'
+	let g:ycm_python_binary_path = 'python'
+	let g:ycm_seed_identifiers_with_syntax = 1
+	nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
+augroup END
+
+Plugin 'flazz/vim-colorschemes'	
 syntax enable 
-colorscheme desert
+colorscheme black_is_the_color
+
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'majutsushi/tagbar'
+Plugin 'kien/rainbow_parentheses.vim'
 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'edkolev/tmuxline.vim'
-let g:tmuxline_preset = 'nightly_fox'
 
+nnoremap <F8> :TagbarToggle<CR>
+
+set cursorline 
 
 set t_Co=256
 set laststatus=2
-let g:tmuxline_powerline_separators = 0
-let g:airline#entensions#tmuxline#enabled = 0 
-nnoremap [b :bp<CR>
-nnoremap ]b :bn<CR>
+let g:airline#entensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'default'
+let g:airline_themes = 'badwolf'
 
 map <leader>1 :b 1<CR>
 map <leader>2 :b 2<CR>
@@ -57,11 +69,6 @@ let NERDTreeWinSize=25
 Plugin 'indentLine.vim'
 Plugin 'delimitMate.vim'
 
-Plugin 'alpertuna/vim-header'
-let g:header_field_author = 'Yingjun Dong'
-let g:header_field_author_email = 'ydong25@binghamton.edu'
-map <F4> :AddHeader<CR>
-
 call vundle#end()
 
 nmap ww :update<cr>
@@ -81,6 +88,8 @@ set ruler
 set nobackup
 set cursorline
 set magic
+
+set guifont=Monaco:h16
 
 set nocompatible
 set syntax=on
