@@ -1,7 +1,7 @@
 set nocompatible
-set textwidth=100
+set textwidth=90
 set backspace=indent,eol,start 
-set cc=100
+set cc=90
 
 autocmd BufWritePost $MYVIMRC source $MYVIMRC
 
@@ -20,10 +20,11 @@ augroup ycm_settings:
 	let g:ycm_seed_identifiers_with_syntax = 1
 	nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
 augroup END
-
+ 
 Plugin 'flazz/vim-colorschemes'	
 syntax enable 
-colorscheme black_is_the_color
+colorscheme wombat256
+hi! Normal guibg=NONE ctermbg=NONE
 
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'terryma/vim-multiple-cursors'
