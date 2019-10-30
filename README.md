@@ -1,3 +1,8 @@
+Run run.sh file
+
+OR
+
+Step by step
 # vim_and_tmux
 Install vundle:
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
