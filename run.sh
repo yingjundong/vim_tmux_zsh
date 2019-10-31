@@ -1,5 +1,6 @@
 sudo apt-get install vim 
 sudo apt-get install tmux 
+sudo apt-get install zsh
 
 cp .vimrc ~/.vimrc
 cp .tmux.conf.local ~/.tmux.conf.local
