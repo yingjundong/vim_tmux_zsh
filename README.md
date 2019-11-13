@@ -20,6 +20,7 @@ Then, open this folder and copy files to ~/.
 `cp vim_tmux_zsh/.vimrc ~/.vimrc`
 
 Install vundle:
+
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
 Open your .vimrc.
@@ -31,6 +32,7 @@ In command mode, insert:
 `:PluginInstall`
 
 Install YCM and complie:
+
 `sudo apt install build-essential cmake python3-dev`
 
 `cd ~/.vim/bundle/YouCompleteMe`
