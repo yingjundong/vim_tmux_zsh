@@ -10,7 +10,9 @@ Step by step
 If you don't have Vim, tmux and zsh, please install first.
 
 `sudo apt-get install vim`
+
 `sudo apt-get install tmux`
+
 `sudo apt-get install zsh`
 
 Then, open this folder and copy files to ~/.
@@ -30,12 +32,15 @@ In command mode, insert:
 
 Install YCM and complie:
 `sudo apt install build-essential cmake python3-dev`
+
 `cd ~/.vim/bundle/YouCompleteMe`
+
 `python3 install.py --clang-completer`
 
 After above process, copy tmux configure files:
 
 `cp .tmux.conf.local ~/.tmux.conf.local`
+
 `cp .tmux.conf ~/.tmux.conf`
 
 Install oh my zsh:
