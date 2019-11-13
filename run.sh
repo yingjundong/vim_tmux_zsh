@@ -2,7 +2,6 @@ sudo apt-get install vim
 sudo apt-get install tmux 
 sudo apt-get install zsh
 cp .vimrc ~/.vimrc
-vim +PlugInstall +qall
 cp .tmux.conf.local ~/.tmux.conf.local
 cp .tmux.conf ~/.tmux.conf
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
