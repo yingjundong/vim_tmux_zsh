@@ -68,7 +68,7 @@ Install YCM and complie: (YCM official site: https://github.com/ycm-core/YouComp
 
 Move Vim color scheme folder:
 
-`mv ~/.vim/bundle/colorscheme/colors ~/.vim/`
+`mv ~/.vim/bundle/vim-colorschemes/colors ~/.vim/`
 
 # tmux & zsh
 
@@ -108,6 +108,8 @@ jj: Leave insert mode
 ww: Write and save
 
 F2: open NerdTree
+
+/: find
 
 ## tmux
 
