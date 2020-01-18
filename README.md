@@ -19,7 +19,9 @@ First step, you need to install Homebrew if you didn't install it. See the web: 
 After installation brew, you can continue:
 
 `brew install vim`
+
 `brew install tmux`
+
 `brew install zsh`
 
 # .vimrc and compile
