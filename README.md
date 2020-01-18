@@ -1,4 +1,4 @@
-# vim_and_tmux
+# vim_tmux_and_zsh
 For Ubuntu, I'm using 19.10.
 
 # Installation
