@@ -16,7 +16,7 @@ If you don't have Vim, tmux and zsh, please install first.
 
 First step, you need to install Homebrew if you didn't install it. See the web: https://brew.sh/.
 
-After installation brew, you can continue:
+After that:
 
 `brew install vim`
 
