@@ -96,7 +96,7 @@ Line 5, `export ZSH="YOUR_PATH/.oh-my-zsh"` (Usually, for mac user, this path sh
 
 Save .zshrc and quit terminal.
 
-Reopen terminal, insert tmux, done.
+Reopen terminal (with tmux), done!
 
 # Common Shortcuts
 
