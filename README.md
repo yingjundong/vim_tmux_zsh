@@ -99,17 +99,17 @@ Reopen terminal, insert tmux, done.
 # Common Shortcuts
 
 ## Vim
-`qq: Quit
+qq: Quit
 
 jj: Leave insert mode
 
 ww: Write and save
 
-F2: open NerdTree`
+F2: open NerdTree
 
 ## tmux
 
-`prefix: ctrl+a 
+prefix: ctrl+a 
 
 split pane vertically: prefix + |
 
@@ -131,4 +131,4 @@ resize pane: prefix + H/J/K/L
 
 create new window: prefix + c
 
-change windows: prefix + ctrl+h  OR prefix + ctrl+l`
+change windows: prefix + ctrl+h  OR prefix + ctrl+l
