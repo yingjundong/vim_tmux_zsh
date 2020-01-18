@@ -101,6 +101,7 @@ Reopen terminal (with tmux), done!
 # Common Shortcuts
 
 ## Vim
+
 qq: Quit
 
 jj: Leave insert mode
@@ -110,6 +111,8 @@ ww: Write and save
 F2: open NerdTree
 
 /: find
+
+Please see Vim Cheat Sheet: https://vim.rtorr.com/
 
 ## tmux
 
