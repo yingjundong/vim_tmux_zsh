@@ -100,21 +100,35 @@ Reopen terminal, insert tmux, done.
 
 ## Vim
 `qq: Quit
+
 jj: Leave insert mode
+
 ww: Write and save
+
 F2: open NerdTree`
 
 ## tmux
 
 `prefix: ctrl+a 
+
 split pane vertically: prefix + |
+
 split pane horizontally: prefix + -
+
 move to left pane: prefix + h
+
 move to right pane: prefix + l
+
 move to up pane: prefix + k
+
 move to down pane: prefix + j
+
 swap current pane with next one: prefix + >
+
 swap current pane with previous: prefix + <
+
 resize pane: prefix + H/J/K/L
+
 create new window: prefix + c
+
 change windows: prefix + ctrl+h  OR prefix + ctrl+l`
