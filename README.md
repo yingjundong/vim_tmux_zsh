@@ -5,14 +5,14 @@ For Ubuntu, I'm using 19.10.
 
 If you don't have Vim, tmux and zsh, please install first.
 
-## Ubuntu
+### Ubuntu
 `sudo apt-get install vim`
 
 `sudo apt-get install tmux`
 
 `sudo apt-get install zsh`
 
-## MacOS
+### MacOS
 
 First step, you need to install Homebrew if you didn't install it. See the web: https://brew.sh/.
 
@@ -46,7 +46,7 @@ In command mode, insert:
 
 Install YCM and complie: (YCM official site: https://github.com/ycm-core/YouCompleteMe )
 
-## Ubuntu
+### Ubuntu
 
 `sudo apt install build-essential cmake python3-dev`
 
@@ -54,7 +54,7 @@ Install YCM and complie: (YCM official site: https://github.com/ycm-core/YouComp
 
 `python3 install.py --clang-completer`
 
-## MacOS
+### MacOS
 
 `brew install cmake macvim`
 
@@ -66,7 +66,7 @@ Install YCM and complie: (YCM official site: https://github.com/ycm-core/YouComp
 
 Move Vim color scheme folder:
 
-`mv ~/.vim/bundle/colorscheme/colors ~/.vim`
+`mv ~/.vim/bundle/colorscheme/colors ~/.vim/`
 
 # tmux & zsh
 
