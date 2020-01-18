@@ -30,7 +30,7 @@ Next
 
 `git clone https://github.com/yingjundong/vim_tmux_zsh.git`
 
-Then, open this folder and copy files to path ~/
+Then, copy files to path ~/
 
 `cp vim_tmux_zsh/.vimrc ~/.vimrc`
 
@@ -42,7 +42,7 @@ Open your .vimrc.
 
 `vim ~/.vimrc`
 
-In command mode, insert:
+Under command mode, insert:
 
 `:PluginInstall`
 
