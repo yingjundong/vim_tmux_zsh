@@ -131,4 +131,4 @@ resize pane: prefix + H/J/K/L
 
 create new window: prefix + c
 
-change windows: prefix + ctrl+h  OR prefix + ctrl+l
+change windows: prefix + H  OR prefix + L
