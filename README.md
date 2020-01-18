@@ -30,7 +30,7 @@ Next
 
 `git clone https://github.com/yingjundong/vim_tmux_zsh.git`
 
-Then, open this folder and copy files to ~/.
+Then, open this folder and copy files to path ~/
 
 `cp vim_tmux_zsh/.vimrc ~/.vimrc`
 
