@@ -80,7 +80,8 @@ After above process, copy tmux configure files:
 
 Install oh my zsh (oh-my-zsh official site: https://github.com/ohmyzsh/ohmyzsh ):
 
-`sh -c "$(curl -fsSLhttps://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+via curl: `sh -c "$(curl -fsSLhttps://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+via wget: `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 Move .zshrc to ~/
 
