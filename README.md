@@ -90,7 +90,7 @@ Open .zshrc, modify the export path:
 
 `vim ~/.zshrc`
 
-Line 5, `export ZSH="YOUR_PATH/.oh-my-zsh"`
+Line 5, `export ZSH="YOUR_PATH/.oh-my-zsh"` (Usually, for mac user, this path should be `"/Users/xxx/.oh-my-zsh"`; for ubuntu user, it should be `"/home/xxx/.oh-my-zsh"`.)
 
 Save .zshrc and quit terminal.
 
